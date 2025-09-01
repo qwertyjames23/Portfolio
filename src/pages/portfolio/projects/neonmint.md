@@ -1,17 +1,17 @@
 ---
 layout:  /src/layouts/ProjectLayout.astro
-title: 'NeonMint'
+title: 'Portfolio'
 pubDate: 2025-04-05
-description: 'NeonMint is a modern, minimalist template crafted for developers and digital creatives.'
+description: 'Portfolio is a modern, minimalist template crafted for developers and digital creatives.'
 languages: ["astro", "tailwind", "cloudflare", "javascript","vercel"]
 image:
-  url: "/images/projects/neonmint.webp"
+  url: "/images/projects/portfolio.webp"
   alt: "Thumbnail of Astro arches."
 --- 
 
-**NeonMint** is a modern, minimalist web template created for developers, designers, and digital creatives. This project aims to offer an elegant and functional visual experience, combining a dark-toned aesthetic with mint green accents to highlight content without distractions.
+**Portfolio** is a modern, minimalist web template created for developers, designers, and digital creatives. This project aims to offer an elegant and functional visual experience, combining a dark-toned aesthetic with mint green accents to highlight content without distractions.
 
-Developed with **Astro** and styled with **TailwindCSS**, NeonMint focuses on speed, modularity, and a component-centered architecture.
+Developed with **Astro** and styled with **TailwindCSS**, Portfolio focuses on speed, modularity, and a component-centered architecture.
 
 ## 🧩 Features
 
@@ -33,11 +33,11 @@ Developed with **Astro** and styled with **TailwindCSS**, NeonMint focuses on sp
 
 ## 🌐 Demo
 
-👉 [View live demo](https://github.com/EFEELE/NeonMint) 
+👉 [View live demo](https://github.com/RJADAMS/Portfolio)
 
 ## 🎯 Objective
 
-The purpose of NeonMint is to combine style and functionality in a clean interface that enhances content without overwhelming the user. It's an exercise in design and development focused on visual detail and user experience.
+The purpose of Portfolio is to combine style and functionality in a clean interface that enhances content without overwhelming the user. It's an exercise in design and development focused on visual detail and user experience.
 
 
-🚀 *Developed by EFEELE.*
+🚀 *Developed by RJADAMS.*
