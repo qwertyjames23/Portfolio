@@ -1,23 +1,29 @@
 ---
 layout:  /src/layouts/ProjectLayout.astro
-title: 'Portfolio'
-pubDate: 2025-04-05
-description: 'Portfolio is a modern, minimalist template crafted for developers and digital creatives.'
-languages: ["astro", "tailwind", "cloudflare", "javascript","vercel"]
+title: 'Graphic Design'
+pubDate: 2025-01-15
+description: 'Visual Identity, Design and Layout, Type & Color Harmony, Digital Content, Print & Marketing Assets'
+languages: ["photoshop", "illustrator", "canva", "figma"]
 image:
   url: "/images/projects/portfolio.webp"
-  alt: "Thumbnail of Astro arches."
+  alt: "Graphic Design Showcase"
 --- 
 
-**Portfolio** is a modern, minimalist web template created for developers, designers, and digital creatives. This project aims to offer an elegant and functional visual experience, combining a dark-toned aesthetic with mint green accents to highlight content without distractions.
+**Graphic Design** - Comprehensive visual design services focusing on creating impactful brand identities and marketing materials that communicate effectively with target audiences.
 
-Developed with **Astro** and styled with **TailwindCSS**, Portfolio focuses on speed, modularity, and a component-centered architecture.
+## Skills & Services
 
-## 🧩 Features
+- **Visual Identity & Branding** - Logo design, brand guidelines, and visual identity systems
+- **Design and Layout** - Print and digital layout design for various media
+- **Type & Color Harmony** - Typography selection and color palette development
+- **Digital Content** - Social media graphics, web banners, and digital assets
+- **Print & Marketing Assets** - Brochures, flyers, business cards, and promotional materials
 
-- Responsive and minimalist design
-- Dark mode aesthetic with mint green accents
-- Clean and reusable UI components
+## Professional Tools
+- Adobe Photoshop
+- Adobe Illustrator
+- Canva Pro
+- Figma
 - Ideal for portfolios, dashboards or tech landing pages
 - Modern typography and clear visual hierarchy
 - Developed with **Astro**

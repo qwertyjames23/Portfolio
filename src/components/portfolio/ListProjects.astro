@@ -36,84 +36,16 @@ allPosts.sort(
       >: Graphic Design, Audio Production, and Administrative Excellence.
       <b
         class="bg-linear-to-r from-riptide-500 to-mint-500 dark:from-riptide-300 dark:to-mint-200 text-transparent bg-clip-text"
-        >Explore my work!</b
+        >Explore my projects!</b
       >
     </p>
     <slot />
   </div>
 
-  <!-- Portfolio Categories -->
-  <div class="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-    <!-- Graphic Design -->
-    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-      <div class="flex items-center gap-3 mb-4">
-        <Icon class="text-2xl text-mint-500" name="briefcase" />
-        <h3 class="text-xl font-bold dark:text-white">Graphic Design</h3>
-      </div>
-      <ul class="space-y-2 text-gray-600 dark:text-gray-300 text-sm">
-        <li>• Visual Identity & Branding</li>
-        <li>• Design and Layout</li>
-        <li>• Type & Color Harmony</li>
-        <li>• Digital Content Creation</li>
-        <li>• Print & Marketing Assets</li>
-      </ul>
-      <div class="mt-4 flex flex-wrap gap-2">
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Photoshop</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Illustrator</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Canva</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Figma</span>
-      </div>
-      <a href="/portfolio/graphic-design" class="inline-block mt-4 text-mint-500 hover:text-mint-600 font-medium transition-colors">View Projects →</a>
-    </div>
-
-    <!-- Audio Specialist -->
-    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-      <div class="flex items-center gap-3 mb-4">
-        <Icon class="text-2xl text-mint-500" name="briefcase" />
-        <h3 class="text-xl font-bold dark:text-white">Audio Specialist</h3>
-      </div>
-      <ul class="space-y-2 text-gray-600 dark:text-gray-300 text-sm">
-        <li>• Audio Editing & Mixing</li>
-        <li>• Vocal Separation & Isolation</li>
-        <li>• Noise Reduction & Restoration</li>
-        <li>• Podcast Editing & Production</li>
-        <li>• Sound Design & Mastering</li>
-      </ul>
-      <div class="mt-4 flex flex-wrap gap-2">
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Studio One</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">FL Studio</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Ableton</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Audacity</span>
-      </div>
-      <a href="/portfolio/audio-specialist" class="inline-block mt-4 text-mint-500 hover:text-mint-600 font-medium transition-colors">View Projects →</a>
-    </div>
-
-    <!-- Administrative Support -->
-    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-      <div class="flex items-center gap-3 mb-4">
-        <Icon class="text-2xl text-mint-500" name="briefcase" />
-        <h3 class="text-xl font-bold dark:text-white">Administrative Support</h3>
-      </div>
-      <ul class="space-y-2 text-gray-600 dark:text-gray-300 text-sm">
-        <li>• Email & Calendar Management</li>
-        <li>• Data Entry & Database Mgmt</li>
-        <li>• Document Preparation</li>
-        <li>• Scheduling & Task Coordination</li>
-        <li>• Research & File Management</li>
-      </ul>
-      <div class="mt-4 flex flex-wrap gap-2">
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Google Workspace</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">MS Office 365</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Trello</span>
-        <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-2 py-1 rounded text-xs">Notion</span>
-      </div>
-      <a href="/portfolio/administrative-support" class="inline-block mt-4 text-mint-500 hover:text-mint-600 font-medium transition-colors">View Projects →</a>
-    </div>
-  </div>
-
+  <!-- Featured Project Showcase -->
   <div
     id="containerProjects"
-    class="mx-auto max-w-7xl grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 p-2 py-4 max-h-[150vh] overflow-hidden transition-[max-height] duration-500 ease-in-out"
+    class="mx-auto max-w-7xl grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 p-2 py-4"
   >
     {
       allPosts.map((post) => (
