@@ -5,110 +5,88 @@ export interface Language {
 }
 
 export const languages: Record<string, Language> = {
-  angular: {
-    name: "Angular",
-    iconName: "angular",
+  // Graphic Design Tools
+  photoshop: {
+    name: "Adobe Photoshop",
+    iconName: "photoshop",
   },
-  astro: {
-    name: "Astro",
-    iconName: "astro",
+  illustrator: {
+    name: "Adobe Illustrator", 
+    iconName: "illustrator",
   },
-  bootstrap: {
-    name: "Bootstrap",
-    iconName: "bootstrap",
-  },
-  cloudflare: {
-    name: "Cloudflare",
-    iconName: "cloudflare",
-  },
-  html: {
-    name: "HTML 5",
-    iconName: "html",
-  },
-  javascript: {
-    name: "JavaScript",
-    iconName: "javascript",
-  },
-  mongo: {
-    name: "MongoDb",
-    iconName: "mongo",
-  },
-  mysql: {
-    name: "MySQL",
-    className: "bg-[#f6ece1]!",
-    iconName: "mysql",
-  },
-  wordpress: {
-    name: "Wordpress",
-    iconName: "wordpress",
-  },
-  node: {
-    name: "Node.js",
-    iconName: "node",
-  },
-  tailwind: {
-    name: "Tailwind CSS",
-    iconName: "tailwind",
+  canva: {
+    name: "Canva",
+    iconName: "canva",
   },
   figma: {
     name: "Figma",
     iconName: "figma",
   },
-  firebase: {
-    name: "Firebase",
-    iconName: "firebase",
+  
+  // Audio Tools
+  studioone: {
+    name: "PreSonus Studio One",
+    iconName: "studioone",
   },
-  markdown: {
-    name: "Markdown",
-    iconName: "markdown",
+  flstudio: {
+    name: "FL Studio",
+    iconName: "flstudio", 
   },
-  php: {
-    name: "PHP",
-    iconName: "php",
+  ableton: {
+    name: "Ableton Live",
+    iconName: "ableton",
   },
-  sass: {
-    name: "Sass",
-    iconName: "sass",
+  audacity: {
+    name: "Audacity",
+    iconName: "audacity",
   },
-  ts: {
-    name: "TypeScript",
-    iconName: "typescript",
+  
+  // Administrative Tools
+  "google-workspace": {
+    name: "Google Workspace",
+    iconName: "google-workspace",
   },
-  git: {
-    name: "Git",
-    iconName: "git",
+  "microsoft-office": {
+    name: "Microsoft Office 365",
+    iconName: "microsoft-office",
+  },
+  trello: {
+    name: "Trello",
+    iconName: "trello",
+  },
+  notion: {
+    name: "Notion",
+    iconName: "notion",
+  },
+  
+  // Web Technologies  
+  html: {
+    name: "HTML",
+    iconName: "html",
   },
   css: {
     name: "CSS",
     iconName: "css",
   },
-  vercel: {
-    name: "Vercel",
-    iconName: "vercel",
+  javascript: {
+    name: "JavaScript",
+    iconName: "javascript",
   },
-  netlify: {
-    name: "Netlify",
-    iconName: "netlify",
+  typescript: {
+    name: "TypeScript",
+    iconName: "typescript",
   },
-  gatsby: {
-    name: "Gatsby",
-    iconName: "gatsby",
+  tailwind: {
+    name: "Tailwind CSS",
+    iconName: "tailwind",
   },
-  windsurf: {
-    name: "Windsurf",
-    iconName: "windsurf-logo",
+  markdown: {
+    name: "Markdown",
+    iconName: "markdown",
   },
-  cursor: {
-    name: "Cursor",
-    iconName: "cursor-ia",
-  },
-  deepseek: {
-    name: "DeepSeek",
-    iconName: "deepseek",
-  },
-  python: {
-    name: "Python",
-    iconName: "python",
+  ts: {
+    name: "TypeScript",
+    iconName: "typescript",
   },
 };
 
