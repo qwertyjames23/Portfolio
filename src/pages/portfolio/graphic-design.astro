@@ -1,0 +1,132 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+
+const pageTitle = "Graphic Design Portfolio | Raffy James Adams";
+const description = "Explore my graphic design work including visual identity, branding, layout design, and digital content creation.";
+---
+
+<Layout pageTitle={pageTitle} description={description}>
+  <main class="pt-20 pb-16">
+    <div class="max-w-7xl mx-auto px-8">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="flex items-center justify-center gap-3 mb-4">
+          <Icon class="text-4xl text-mint-500" name="briefcase" />
+          <h1 class="text-4xl font-bold dark:text-white">Graphic Design</h1>
+        </div>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          Creating visual solutions that communicate, inspire, and engage. From brand identity to digital content, 
+          I bring ideas to life through thoughtful design and creative execution.
+        </p>
+      </div>
+
+      <!-- Skills Overview -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-8 mb-12 shadow-lg">
+        <h2 class="text-2xl font-bold dark:text-white mb-6">My Design Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Visual Identity</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Logo Design</li>
+              <li>• Brand Guidelines</li>
+              <li>• Style Systems</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Layout & Typography</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Magazine Layouts</li>
+              <li>• Typography Design</li>
+              <li>• Grid Systems</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Digital Content</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Social Media Graphics</li>
+              <li>• Web Graphics</li>
+              <li>• Digital Illustrations</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+          <h3 class="font-semibold dark:text-white mb-3">Tools I Use:</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Adobe Photoshop</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Adobe Illustrator</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Canva</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Figma</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Projects -->
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold dark:text-white mb-8">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+            <div class="h-48 bg-gradient-to-br from-mint-400 to-riptide-500 flex items-center justify-center">
+              <Icon class="text-6xl text-white" name="briefcase" />
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg dark:text-white mb-2">Brand Identity Design</h3>
+              <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                Complete brand identity including logo, color palette, and brand guidelines for a tech startup.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Logo Design</span>
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Branding</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+            <div class="h-48 bg-gradient-to-br from-riptide-400 to-mint-500 flex items-center justify-center">
+              <Icon class="text-6xl text-white" name="briefcase" />
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg dark:text-white mb-2">Marketing Materials</h3>
+              <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                Print and digital marketing assets including brochures, flyers, and social media content.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Print Design</span>
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Marketing</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+            <div class="h-48 bg-gradient-to-br from-mint-500 to-riptide-400 flex items-center justify-center">
+              <Icon class="text-6xl text-white" name="briefcase" />
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg dark:text-white mb-2">Digital Illustrations</h3>
+              <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                Custom digital illustrations for web content, presentations, and marketing campaigns.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Illustration</span>
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Digital Art</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact CTA -->
+      <div class="bg-gradient-to-r from-mint-500 to-riptide-500 rounded-xl p-8 text-center text-white">
+        <h2 class="text-2xl font-bold mb-4">Ready to Work Together?</h2>
+        <p class="mb-6">Let's bring your visual ideas to life with professional graphic design.</p>
+        <a href="/#contact" class="bg-white text-mint-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>

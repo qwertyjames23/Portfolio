@@ -1,0 +1,207 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+
+const pageTitle = "Administrative Support Portfolio | Raffy James Adams";
+const description = "Professional administrative support services including email management, data entry, document preparation, and task coordination.";
+---
+
+<Layout pageTitle={pageTitle} description={description}>
+  <main class="pt-20 pb-16">
+    <div class="max-w-7xl mx-auto px-8">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="flex items-center justify-center gap-3 mb-4">
+          <Icon class="text-4xl text-mint-500" name="briefcase" />
+          <h1 class="text-4xl font-bold dark:text-white">Administrative Support</h1>
+        </div>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          Streamlining operations and enhancing productivity through professional administrative services. 
+          From email management to document preparation, I handle the details so you can focus on what matters most.
+        </p>
+      </div>
+
+      <!-- Skills Overview -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-8 mb-12 shadow-lg">
+        <h2 class="text-2xl font-bold dark:text-white mb-6">Administrative Expertise</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Communication</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Email Management</li>
+              <li>• Calendar Coordination</li>
+              <li>• Client Communication</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Data Management</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Data Entry & Analysis</li>
+              <li>• Database Management</li>
+              <li>• Record Keeping</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Project Support</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Task Coordination</li>
+              <li>• Document Preparation</li>
+              <li>• Research & Analysis</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+          <h3 class="font-semibold dark:text-white mb-3">Professional Tools:</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Google Workspace</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Microsoft Office 365</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Trello</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Notion</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Categories -->
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold dark:text-white mb-8">Service Categories</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Email & Calendar Management -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+            <div class="flex items-center gap-3 mb-4">
+              <Icon class="text-2xl text-mint-500" name="envelope" />
+              <h3 class="text-xl font-bold dark:text-white">Email & Calendar Management</h3>
+            </div>
+            <ul class="space-y-2 text-gray-600 dark:text-gray-300 mb-4">
+              <li>• Inbox organization and filtering</li>
+              <li>• Email response management</li>
+              <li>• Meeting scheduling and coordination</li>
+              <li>• Calendar optimization</li>
+              <li>• Appointment reminders</li>
+            </ul>
+            <div class="bg-mint-50 dark:bg-mint-900/20 p-4 rounded-lg">
+              <p class="text-sm text-mint-700 dark:text-mint-300">
+                <strong>Result:</strong> 80% reduction in email response time and 100% meeting punctuality
+              </p>
+            </div>
+          </div>
+
+          <!-- Data Entry & Database Management -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+            <div class="flex items-center gap-3 mb-4">
+              <Icon class="text-2xl text-mint-500" name="dashboard" />
+              <h3 class="text-xl font-bold dark:text-white">Data Entry & Database</h3>
+            </div>
+            <ul class="space-y-2 text-gray-600 dark:text-gray-300 mb-4">
+              <li>• Accurate data entry (99.9% accuracy)</li>
+              <li>• Database creation and maintenance</li>
+              <li>• Data cleaning and validation</li>
+              <li>• Report generation</li>
+              <li>• CRM system management</li>
+            </ul>
+            <div class="bg-mint-50 dark:bg-mint-900/20 p-4 rounded-lg">
+              <p class="text-sm text-mint-700 dark:text-mint-300">
+                <strong>Expertise:</strong> Processed 10,000+ records with 99.9% accuracy rate
+              </p>
+            </div>
+          </div>
+
+          <!-- Document Preparation -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+            <div class="flex items-center gap-3 mb-4">
+              <Icon class="text-2xl text-mint-500" name="briefcase" />
+              <h3 class="text-xl font-bold dark:text-white">Document Preparation</h3>
+            </div>
+            <ul class="space-y-2 text-gray-600 dark:text-gray-300 mb-4">
+              <li>• Professional document formatting</li>
+              <li>• Presentation creation</li>
+              <li>• Report writing and editing</li>
+              <li>• Template development</li>
+              <li>• Content proofreading</li>
+            </ul>
+            <div class="bg-mint-50 dark:bg-mint-900/20 p-4 rounded-lg">
+              <p class="text-sm text-mint-700 dark:text-mint-300">
+                <strong>Quality:</strong> Professional-grade documents with attention to detail
+              </p>
+            </div>
+          </div>
+
+          <!-- Research & Task Coordination -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
+            <div class="flex items-center gap-3 mb-4">
+              <Icon class="text-2xl text-mint-500" name="rocket" />
+              <h3 class="text-xl font-bold dark:text-white">Research & Coordination</h3>
+            </div>
+            <ul class="space-y-2 text-gray-600 dark:text-gray-300 mb-4">
+              <li>• Market research and analysis</li>
+              <li>• Project task coordination</li>
+              <li>• Vendor research and comparison</li>
+              <li>• Process optimization</li>
+              <li>• Administrative workflow setup</li>
+            </ul>
+            <div class="bg-mint-50 dark:bg-mint-900/20 p-4 rounded-lg">
+              <p class="text-sm text-mint-700 dark:text-mint-300">
+                <strong>Impact:</strong> Improved team productivity by 40% through process optimization
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- File Upload Section -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-8 mb-12 shadow-lg">
+        <h2 class="text-2xl font-bold dark:text-white mb-6">Submit Your Administrative Task</h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-6">
+          Need help with administrative tasks? Upload your documents and describe your requirements.
+        </p>
+        <form class="space-y-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium dark:text-white mb-2">Service Type</label>
+              <select class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg dark:bg-gray-700 dark:text-white">
+                <option>Email Management</option>
+                <option>Data Entry</option>
+                <option>Document Preparation</option>
+                <option>Research Tasks</option>
+                <option>Calendar Management</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium dark:text-white mb-2">Priority Level</label>
+              <select class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg dark:bg-gray-700 dark:text-white">
+                <option>Standard (3-5 days)</option>
+                <option>Priority (1-2 days)</option>
+                <option>Rush (24 hours)</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium dark:text-white mb-2">Task Description</label>
+            <textarea rows="4" class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg dark:bg-gray-700 dark:text-white" placeholder="Please describe your administrative task requirements..."></textarea>
+          </div>
+          <div>
+            <label class="block text-sm font-medium dark:text-white mb-2">Upload Files (Optional)</label>
+            <div class="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-8 text-center">
+              <Icon class="text-4xl text-gray-400 mx-auto mb-4" name="paperplane" />
+              <p class="text-gray-600 dark:text-gray-300">Drag and drop your files here, or click to browse</p>
+              <input type="file" multiple class="hidden" />
+            </div>
+          </div>
+          <button type="submit" class="bg-mint-500 text-white px-6 py-3 rounded-lg hover:bg-mint-600 transition-colors">
+            Submit Task Request
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact CTA -->
+      <div class="bg-gradient-to-r from-mint-500 to-riptide-500 rounded-xl p-8 text-center text-white">
+        <h2 class="text-2xl font-bold mb-4">Need Administrative Support?</h2>
+        <p class="mb-6">Let me handle your administrative tasks so you can focus on growing your business.</p>
+        <a href="/#contact" class="bg-white text-mint-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          Get Started
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>

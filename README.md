@@ -100,14 +100,14 @@
 
    ### 🚀**Astro Installation**
    ```bash
-   npm create astro@latest -- --template EFEELE/neonmint
+   npm create astro@latest -- --template RJADAMS/portfolio
    ```
    or
    ### 🔧**Manual Installation**
    
    #### Clone Repository
    ```bash
-   git clone https://github.com/EFEELE/NeonMint.git
+   git clone https://github.com/RJADAMS/Portfolio.git
    ```
    #### Install Dependencies
    ```bash

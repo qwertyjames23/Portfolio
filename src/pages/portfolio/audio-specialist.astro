@@ -1,0 +1,175 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+
+const pageTitle = "Audio Specialist Portfolio | Raffy James Adams";
+const description = "Professional audio editing, mixing, podcast production, and sound design services. Explore my audio portfolio.";
+---
+
+<Layout pageTitle={pageTitle} description={description}>
+  <main class="pt-20 pb-16">
+    <div class="max-w-7xl mx-auto px-8">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="flex items-center justify-center gap-3 mb-4">
+          <Icon class="text-4xl text-mint-500" name="briefcase" />
+          <h1 class="text-4xl font-bold dark:text-white">Audio Specialist</h1>
+        </div>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          Professional audio production services including editing, mixing, mastering, and restoration. 
+          Bringing clarity and quality to every audio project.
+        </p>
+      </div>
+
+      <!-- Skills Overview -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-8 mb-12 shadow-lg">
+        <h2 class="text-2xl font-bold dark:text-white mb-6">Audio Production Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Audio Editing</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Multi-track Editing</li>
+              <li>• Audio Synchronization</li>
+              <li>• Content Enhancement</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Mixing & Mastering</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Professional Mixing</li>
+              <li>• Audio Mastering</li>
+              <li>• Level Balancing</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold text-mint-600 dark:text-mint-400">Restoration</h3>
+            <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+              <li>• Noise Reduction</li>
+              <li>• Vocal Separation</li>
+              <li>• Audio Cleanup</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+          <h3 class="font-semibold dark:text-white mb-3">Professional Tools:</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">PreSonus Studio One</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">FL Studio</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Ableton Live</span>
+            <span class="bg-mint-100 dark:bg-mint-900 text-mint-800 dark:text-mint-200 px-3 py-2 rounded-lg">Audacity</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Projects -->
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold dark:text-white mb-8">Featured Audio Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+            <div class="h-48 bg-gradient-to-br from-mint-400 to-riptide-500 flex items-center justify-center">
+              <Icon class="text-6xl text-white" name="briefcase" />
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg dark:text-white mb-2">Podcast Production</h3>
+              <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                Complete podcast editing, mixing, and mastering for weekly business podcast with multiple hosts.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Podcast</span>
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Mixing</span>
+              </div>
+              <div class="flex items-center text-mint-500 text-sm">
+                <Icon class="mr-2" name="paperplane" />
+                <span>Listen to Sample</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+            <div class="h-48 bg-gradient-to-br from-riptide-400 to-mint-500 flex items-center justify-center">
+              <Icon class="text-6xl text-white" name="briefcase" />
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg dark:text-white mb-2">Vocal Isolation</h3>
+              <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                Advanced vocal separation and music isolation for karaoke tracks and remixing projects.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Vocals</span>
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Isolation</span>
+              </div>
+              <div class="flex items-center text-mint-500 text-sm">
+                <Icon class="mr-2" name="paperplane" />
+                <span>View Details</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+            <div class="h-48 bg-gradient-to-br from-mint-500 to-riptide-400 flex items-center justify-center">
+              <Icon class="text-6xl text-white" name="briefcase" />
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg dark:text-white mb-2">Audio Restoration</h3>
+              <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                Professional noise reduction and audio cleanup for archived recordings and damaged audio files.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Restoration</span>
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded text-xs">Cleanup</span>
+              </div>
+              <div class="flex items-center text-mint-500 text-sm">
+                <Icon class="mr-2" name="paperplane" />
+                <span>Before/After</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audio Upload Section -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-8 mb-12 shadow-lg">
+        <h2 class="text-2xl font-bold dark:text-white mb-6">Upload Your Audio Project</h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-6">
+          Ready to enhance your audio? Upload your files and let's discuss your project requirements.
+        </p>
+        <form class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium dark:text-white mb-2">Project Type</label>
+            <select class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg dark:bg-gray-700 dark:text-white">
+              <option>Podcast Editing</option>
+              <option>Music Mixing</option>
+              <option>Audio Restoration</option>
+              <option>Vocal Isolation</option>
+              <option>Sound Design</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium dark:text-white mb-2">Upload Audio Files</label>
+            <div class="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-8 text-center">
+              <Icon class="text-4xl text-gray-400 mx-auto mb-4" name="paperplane" />
+              <p class="text-gray-600 dark:text-gray-300">Drag and drop your audio files here, or click to browse</p>
+              <input type="file" multiple accept="audio/*" class="hidden" />
+            </div>
+          </div>
+          <button type="submit" class="bg-mint-500 text-white px-6 py-3 rounded-lg hover:bg-mint-600 transition-colors">
+            Submit Project
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact CTA -->
+      <div class="bg-gradient-to-r from-mint-500 to-riptide-500 rounded-xl p-8 text-center text-white">
+        <h2 class="text-2xl font-bold mb-4">Need Professional Audio Services?</h2>
+        <p class="mb-6">Let's enhance your audio content with professional editing and production.</p>
+        <a href="/#contact" class="bg-white text-mint-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          Start Your Project
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>
