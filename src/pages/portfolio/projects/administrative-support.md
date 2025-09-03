@@ -11,7 +11,7 @@ image:
 
 **Administrative Support** - Comprehensive virtual assistant and administrative services designed to streamline business operations and improve organizational efficiency.
 
-## Skills & Services
+## My Skills
 
 - **Email & Calendar Management** - Professional email handling and scheduling coordination
 - **Data Entry & Database Management** - Accurate data processing and database organization
@@ -22,7 +22,4 @@ image:
 
 ## Professional Tools
 
-- Google Workspace
-- Microsoft Office 365
-- Trello
-- Notion
+Google Workspace, Microsoft Office 356, Trello, Notion

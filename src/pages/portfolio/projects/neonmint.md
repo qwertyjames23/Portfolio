@@ -9,25 +9,19 @@ image:
   alt: "Graphic Design Showcase"
 --- 
 
-**Graphic Design** - Comprehensive visual design services focusing on creating impactful brand identities and marketing materials that communicate effectively with target audiences.
+**Graphic Design** - Comprehensive visual design services creating impactful brand identities and marketing materials that communicate effectively with target audiences.
 
-## Skills & Services
+## My Skills
 
-- **Visual Identity & Branding** - Logo design, brand guidelines, and visual identity systems
-- **Design and Layout** - Print and digital layout design for various media
+- **Visual Identity** - Professional logo design and brand identity development
+- **Design and Layout** - Print and digital layout design for various media formats
 - **Type & Color Harmony** - Typography selection and color palette development
 - **Digital Content** - Social media graphics, web banners, and digital assets
 - **Print & Marketing Assets** - Brochures, flyers, business cards, and promotional materials
 
 ## Professional Tools
-- Adobe Photoshop
-- Adobe Illustrator
-- Canva Pro
-- Figma
-- Ideal for portfolios, dashboards or tech landing pages
-- Modern typography and clear visual hierarchy
-- Developed with **Astro**
-- Styled with **TailwindCSS**
+
+Photoshop, Illustrator, Canva, Figma
 
 ## 💡 Technologies used
 

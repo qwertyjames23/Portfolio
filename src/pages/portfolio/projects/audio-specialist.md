@@ -11,7 +11,7 @@ image:
 
 **Audio Specialist** - Professional audio production services covering all aspects of sound editing, mixing, and mastering for various media and entertainment applications.
 
-## Skills & Services
+## My Skills
 
 - **Audio Editing & Mixing** - Multi-track editing and professional mixing techniques
 - **Vocal Separation & Music Isolation** - Advanced audio separation and isolation techniques
@@ -23,7 +23,4 @@ image:
 
 ## Professional Tools
 
-- PreSonus Studio One
-- FL Studio
-- Ableton Live
-- Audacity
+StudioOne, FLStudio, Ableton, Audacity

@@ -1,0 +1,1477 @@
+Attached HTML and CSS Context
+
+<h3 class="font-extrabold text-4xl max-xl:text-3xl max-md:text-xl  dark:text-white text-blacktext">Tech</h3>
+
+
+/* Matched Rule from user-agent */
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* Matched Rule from user-agent */
+address, blockquote, center, div, figure, figcaption, footer, form, header, hr, legend, listing, main, p, plaintext, pre, summary, xmp, article, aside, h1, h2, h3, h4, h5, h6, hgroup, nav, section, search, table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th, dir, dd, dl, dt, menu, ol, ul, li, bdi, output, [dir="ltr" i], [dir="rtl" i], [dir="auto" i] {
+  unicode-bidi: isolate;
+}
+
+/* Matched Rule from regular */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Matched Rule from regular */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Matched Rule from regular */
+.text-4xl {
+  font-size: var(--text-4xl);
+  line-height: var(--tw-leading, var(--text-4xl--line-height));
+  font-size: var(--text-4xl);
+  line-height: var(--tw-leading, var(--text-4xl--line-height));
+}
+
+/* Matched Rule from regular */
+.font-extrabold {
+  --tw-font-weight: var(--font-weight-extrabold);
+  font-weight: var(--font-weight-extrabold);
+  --tw-font-weight: var(--font-weight-extrabold);
+  font-weight: var(--font-weight-extrabold);
+}
+
+/* Matched Rule from regular */
+.text-blacktext {
+  color: var(--color-blacktext);
+  color: var(--color-blacktext);
+}
+
+/* Matched Rule from regular */
+.max-xl\:text-3xl {
+}
+
+/* Matched Rule from regular */
+ {
+  font-size: var(--text-3xl);
+  line-height: var(--tw-leading, var(--text-3xl--line-height));
+  font-size: var(--text-3xl);
+  line-height: var(--tw-leading, var(--text-3xl--line-height));
+}
+
+/* Matched Rule from regular */
+.max-md\:text-xl {
+}
+
+/* Matched Rule from regular */
+ {
+  font-size: var(--text-xl);
+  line-height: var(--tw-leading, var(--text-xl--line-height));
+  font-size: var(--text-xl);
+  line-height: var(--tw-leading, var(--text-xl--line-height));
+}
+
+/* Matched Rule from regular */
+.dark\:text-white {
+}
+
+/* Matched Rule from regular */
+&:where(.dark, .dark *) {
+  color: var(--color-white);
+  color: var(--color-white);
+}
+
+/* Matched Rule from regular */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+/* Matched Rule from regular */
+.dark * {
+  scrollbar-color: #6ce9b7 #012d22;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(108, 233, 183) rgb(1, 45, 34);
+  scrollbar-width: thin;
+}
+
+/* Inherited from ancestor level 1 (user-agent) */
+div {
+  display: block;
+}
+
+/* Inherited from ancestor level 1 (user-agent) */
+address, blockquote, center, div, figure, figcaption, footer, form, header, hr, legend, listing, main, p, plaintext, pre, summary, xmp, article, aside, h1, h2, h3, h4, h5, h6, hgroup, nav, section, search, table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th, dir, dd, dl, dt, menu, ol, ul, li, bdi, output, [dir="ltr" i], [dir="rtl" i], [dir="auto" i] {
+  unicode-bidi: isolate;
+}
+
+/* Inherited from ancestor level 1 (regular) */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Inherited from ancestor level 1 (regular) */
+.flex {
+  display: flex;
+  display: flex;
+}
+
+/* Inherited from ancestor level 1 (regular) */
+.items-center {
+  align-items: center;
+  align-items: center;
+}
+
+/* Inherited from ancestor level 1 (regular) */
+.gap-4 {
+  gap: calc(var(--spacing) * 4);
+}
+
+/* Inherited from ancestor level 1 (regular) */
+.max-md\:gap-2 {
+}
+
+/* Inherited from ancestor level 1 (regular) */
+ {
+  gap: calc(var(--spacing) * 2);
+}
+
+/* Inherited from ancestor level 1 (regular) */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+/* Inherited from ancestor level 1 (regular) */
+.dark * {
+  scrollbar-color: #6ce9b7 #012d22;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(108, 233, 183) rgb(1, 45, 34);
+  scrollbar-width: thin;
+}
+
+/* Inherited from ancestor level 2 (user-agent) */
+article, aside, footer, header, hgroup, main, nav, search, section {
+  display: block;
+}
+
+/* Inherited from ancestor level 2 (user-agent) */
+address, blockquote, center, div, figure, figcaption, footer, form, header, hr, legend, listing, main, p, plaintext, pre, summary, xmp, article, aside, h1, h2, h3, h4, h5, h6, hgroup, nav, section, search, table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th, dir, dd, dl, dt, menu, ol, ul, li, bdi, output, [dir="ltr" i], [dir="rtl" i], [dir="auto" i] {
+  unicode-bidi: isolate;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.relative {
+  position: relative;
+  position: relative;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.z-0 {
+  z-index: 0;
+  z-index: 0;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.flex {
+  display: flex;
+  display: flex;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.h-full {
+  height: 100%;
+  height: 100%;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.w-full {
+  width: 100%;
+  width: 100%;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.flex-col {
+  flex-direction: column;
+  flex-direction: column;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.gap-6 {
+  gap: calc(var(--spacing) * 6);
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.overflow-hidden {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.rounded-2xl {
+  border-radius: var(--radius-2xl);
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.bg-linear-to-tr {
+  --tw-gradient-position: to top right;
+  --tw-gradient-position: to top right;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+ {
+  --tw-gradient-position: to top right in oklab;
+  --tw-gradient-position: to top right in oklab;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+ {
+  background-image: linear-gradient(var(--tw-gradient-stops));
+  background-image: linear-gradient(var(--tw-gradient-stops));
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.from-riptide-100 {
+  --tw-gradient-from: var(--color-riptide-100);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-from: var(--color-riptide-100);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.to-mint-100 {
+  --tw-gradient-to: var(--color-mint-100);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-to: var(--color-mint-100);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.p-6 {
+  padding: calc(var(--spacing) * 6);
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.transition {
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
+  transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+  transition-duration: var(--tw-duration, var(--default-transition-duration));
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
+  transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+  transition-duration: var(--tw-duration, var(--default-transition-duration));
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:absolute {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:-bottom-0 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:left-30 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:-z-10 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:aspect-square {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:h-\[80\%\] {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:rounded-full {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:bg-\[radial-gradient\(circle\,rgba\(95\,255\,202\)_0\,rgba\(144\,253\,210\)_100\%\)\] {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:opacity-30 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:blur-3xl {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.before\:transition {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.hover\:shadow-\[0_10px_50px_rgba\(13\,188\,130\,0\.2\)\] {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.max-lg\:gap-4 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+ {
+  gap: calc(var(--spacing) * 4);
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.max-md\:gap-3 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+ {
+  gap: calc(var(--spacing) * 3);
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.max-md\:p-4 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+ {
+  padding: calc(var(--spacing) * 4);
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.dark\:overflow-hidden {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+&:where(.dark, .dark *) {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.dark\:bg-linear-to-r {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+&:where(.dark, .dark *) {
+  --tw-gradient-position: to right;
+  --tw-gradient-position: to right;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+ {
+  --tw-gradient-position: to right in oklab;
+  --tw-gradient-position: to right in oklab;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+ {
+  background-image: linear-gradient(var(--tw-gradient-stops));
+  background-image: linear-gradient(var(--tw-gradient-stops));
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.dark\:from-mint-900 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+&:where(.dark, .dark *) {
+  --tw-gradient-from: var(--color-mint-900);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-from: var(--color-mint-900);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.dark\:to-mint-950 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+&:where(.dark, .dark *) {
+  --tw-gradient-to: var(--color-mint-950);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-to: var(--color-mint-950);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.dark\:before\:bg-\[radial-gradient\(circle\,rgba\(13\,188\,130\)_0\,rgba\(1\,45\,34\)_100\%\)\] {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+&:where(.dark, .dark *) {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.dark\:before\:opacity-80 {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+&:where(.dark, .dark *) {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+&:hover {
+}
+
+/* Inherited from ancestor level 2 (regular) */
+ {
+  --tw-shadow: 0 10px 50px var(--tw-shadow-color, rgba(13,188,130,0.2));
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  --tw-shadow: 0 10px 50px var(--tw-shadow-color, rgba(13,188,130,0.2));
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+}
+
+/* Inherited from ancestor level 2 (regular) */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+.dark * {
+  scrollbar-color: #6ce9b7 #012d22;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(108, 233, 183) rgb(1, 45, 34);
+  scrollbar-width: thin;
+}
+
+/* Inherited from ancestor level 3 (user-agent) */
+div {
+  display: block;
+}
+
+/* Inherited from ancestor level 3 (user-agent) */
+address, blockquote, center, div, figure, figcaption, footer, form, header, hr, legend, listing, main, p, plaintext, pre, summary, xmp, article, aside, h1, h2, h3, h4, h5, h6, hgroup, nav, section, search, table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th, dir, dd, dl, dt, menu, ol, ul, li, bdi, output, [dir="ltr" i], [dir="rtl" i], [dir="auto" i] {
+  unicode-bidi: isolate;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.col-span-2 {
+  grid-column: span 2 / span 2;
+  grid-column-start: span 2;
+  grid-column-end: span 2;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.col-start-1 {
+  grid-column-start: 1;
+  grid-column-start: 1;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.row-start-1 {
+  grid-row-start: 1;
+  grid-row-start: 1;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.rounded-2xl {
+  border-radius: var(--radius-2xl);
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.bg-linear-to-r {
+  --tw-gradient-position: to right;
+  --tw-gradient-position: to right;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-position: to right in oklab;
+  --tw-gradient-position: to right in oklab;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  background-image: linear-gradient(var(--tw-gradient-stops));
+  background-image: linear-gradient(var(--tw-gradient-stops));
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.from-mint-300 {
+  --tw-gradient-from: var(--color-mint-300);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-from: var(--color-mint-300);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.to-mint-50 {
+  --tw-gradient-to: var(--color-mint-50);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-to: var(--color-mint-50);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.p-\[\.2rem\] {
+  padding: .2rem;
+  padding-top: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.2rem;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.hover\:to-mint-300\/30 {
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.md\:col-start-3 {
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.dark\:from-mint-600 {
+}
+
+/* Inherited from ancestor level 3 (regular) */
+&:where(.dark, .dark *) {
+  --tw-gradient-from: var(--color-mint-600);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-from: var(--color-mint-600);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.dark\:to-mint-200\/5 {
+}
+
+/* Inherited from ancestor level 3 (regular) */
+&:where(.dark, .dark *) {
+  --tw-gradient-to: color-mix(in srgb, #a4f4cf 5%, transparent);
+  --tw-gradient-to: color-mix(in srgb, #a4f4cf 5%, transparent);
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-to: color-mix(in oklab, var(--color-mint-200) 5%, transparent);
+  --tw-gradient-to: color-mix(in oklab, var(--color-mint-200) 5%, transparent);
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.dark\:hover\:to-mint-600\/30 {
+}
+
+/* Inherited from ancestor level 3 (regular) */
+&:where(.dark, .dark *) {
+}
+
+/* Inherited from ancestor level 3 (regular) */
+&:hover {
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-to: color-mix(in srgb, #6ce9b7 30%, transparent);
+  --tw-gradient-to: color-mix(in srgb, #6ce9b7 30%, transparent);
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-to: color-mix(in oklab, var(--color-mint-300) 30%, transparent);
+  --tw-gradient-to: color-mix(in oklab, var(--color-mint-300) 30%, transparent);
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 3 (regular) */
+&:hover {
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-to: color-mix(in srgb, #03986a 30%, transparent);
+  --tw-gradient-to: color-mix(in srgb, #03986a 30%, transparent);
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-to: color-mix(in oklab, var(--color-mint-600) 30%, transparent);
+  --tw-gradient-to: color-mix(in oklab, var(--color-mint-600) 30%, transparent);
+}
+
+/* Inherited from ancestor level 3 (regular) */
+ {
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+}
+
+/* Inherited from ancestor level 3 (regular) */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+/* Inherited from ancestor level 3 (regular) */
+.dark * {
+  scrollbar-color: #6ce9b7 #012d22;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(108, 233, 183) rgb(1, 45, 34);
+  scrollbar-width: thin;
+}
+
+/* Inherited from ancestor level 4 (user-agent) */
+div {
+  display: block;
+}
+
+/* Inherited from ancestor level 4 (user-agent) */
+address, blockquote, center, div, figure, figcaption, footer, form, header, hr, legend, listing, main, p, plaintext, pre, summary, xmp, article, aside, h1, h2, h3, h4, h5, h6, hgroup, nav, section, search, table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th, dir, dd, dl, dt, menu, ol, ul, li, bdi, output, [dir="ltr" i], [dir="rtl" i], [dir="auto" i] {
+  unicode-bidi: isolate;
+}
+
+/* Inherited from ancestor level 4 (regular) */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.mx-auto {
+  margin-inline: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.grid {
+  display: grid;
+  display: grid;
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.max-w-7xl {
+  max-width: var(--container-7xl);
+  max-width: var(--container-7xl);
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(4, minmax(0px, 1fr));
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.gap-4 {
+  gap: calc(var(--spacing) * 4);
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.max-xl\:h-\[550px\] {
+}
+
+/* Inherited from ancestor level 4 (regular) */
+ {
+  height: 550px;
+  height: 550px;
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.max-md\:h-\[80vh\] {
+}
+
+/* Inherited from ancestor level 4 (regular) */
+ {
+  height: 80vh;
+  height: 80vh;
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.max-sm\:h-\[900px\] {
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.max-sm\:gap-3 {
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.md\:grid-cols-4 {
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.md\:grid-rows-2 {
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.xl\:h-\[700px\] {
+}
+
+/* Inherited from ancestor level 4 (regular) */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+/* Inherited from ancestor level 4 (regular) */
+.dark * {
+  scrollbar-color: #6ce9b7 #012d22;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(108, 233, 183) rgb(1, 45, 34);
+  scrollbar-width: thin;
+}
+
+/* Inherited from ancestor level 5 (user-agent) */
+article, aside, footer, header, hgroup, main, nav, search, section {
+  display: block;
+}
+
+/* Inherited from ancestor level 5 (user-agent) */
+address, blockquote, center, div, figure, figcaption, footer, form, header, hr, legend, listing, main, p, plaintext, pre, summary, xmp, article, aside, h1, h2, h3, h4, h5, h6, hgroup, nav, section, search, table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th, dir, dd, dl, dt, menu, ol, ul, li, bdi, output, [dir="ltr" i], [dir="rtl" i], [dir="auto" i] {
+  unicode-bidi: isolate;
+}
+
+/* Inherited from ancestor level 5 (regular) */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Inherited from ancestor level 5 (regular) */
+.scroll-m-16 {
+  scroll-margin: calc(var(--spacing) * 16);
+}
+
+/* Inherited from ancestor level 5 (regular) */
+.px-8 {
+  padding-inline: calc(var(--spacing) * 8);
+}
+
+/* Inherited from ancestor level 5 (regular) */
+.py-8 {
+  padding-block: calc(var(--spacing) * 8);
+}
+
+/* Inherited from ancestor level 5 (regular) */
+.max-sm\:px-4 {
+}
+
+/* Inherited from ancestor level 5 (regular) */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+/* Inherited from ancestor level 5 (regular) */
+.dark * {
+  scrollbar-color: #6ce9b7 #012d22;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(108, 233, 183) rgb(1, 45, 34);
+  scrollbar-width: thin;
+}
+
+/* Inherited from ancestor level 6 (user-agent) */
+div {
+  display: block;
+}
+
+/* Inherited from ancestor level 6 (user-agent) */
+address, blockquote, center, div, figure, figcaption, footer, form, header, hr, legend, listing, main, p, plaintext, pre, summary, xmp, article, aside, h1, h2, h3, h4, h5, h6, hgroup, nav, section, search, table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th, dir, dd, dl, dt, menu, ol, ul, li, bdi, output, [dir="ltr" i], [dir="rtl" i], [dir="auto" i] {
+  unicode-bidi: isolate;
+}
+
+/* Inherited from ancestor level 6 (regular) */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Inherited from ancestor level 6 (regular) */
+.min-h-\[85vh\] {
+  min-height: 85vh;
+  min-height: 85vh;
+}
+
+/* Inherited from ancestor level 6 (regular) */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+/* Inherited from ancestor level 6 (regular) */
+.dark * {
+  scrollbar-color: #6ce9b7 #012d22;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(108, 233, 183) rgb(1, 45, 34);
+  scrollbar-width: thin;
+}
+
+/* Inherited from ancestor level 7 (user-agent) */
+body {
+  display: block;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+/* Inherited from ancestor level 7 (regular) */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Inherited from ancestor level 7 (regular) */
+.overflow-x-hidden {
+  overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+/* Inherited from ancestor level 7 (regular) */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}
+
+/* Inherited from ancestor level 7 (regular) */
+.dark * {
+  scrollbar-color: #6ce9b7 #012d22;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(108, 233, 183) rgb(1, 45, 34);
+  scrollbar-width: thin;
+}
+
+/* Inherited from ancestor level 8 (user-agent) */
+html {
+  display: block;
+}
+
+/* Inherited from ancestor level 8 (user-agent) */
+:root {
+  view-transition-name: root;
+}
+
+/* Inherited from ancestor level 8 (regular) */
+:root, :host {
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+  --color-green-200: oklch(92.5% 0.084 155.995);
+  --color-green-400: oklch(79.2% 0.209 151.711);
+  --color-emerald-50: oklch(97.9% 0.021 166.113);
+  --color-emerald-200: oklch(90.5% 0.093 164.15);
+  --color-teal-200: oklch(91% 0.096 180.426);
+  --color-slate-400: oklch(70.4% 0.04 256.788);
+  --color-slate-500: oklch(55.4% 0.046 257.417);
+  --color-slate-600: oklch(44.6% 0.043 257.281);
+  --color-gray-100: oklch(96.7% 0.003 264.542);
+  --color-gray-200: oklch(92.8% 0.006 264.531);
+  --color-gray-300: oklch(87.2% 0.01 258.338);
+  --color-gray-400: oklch(70.7% 0.022 261.325);
+  --color-gray-600: oklch(44.6% 0.03 256.802);
+  --color-gray-700: oklch(37.3% 0.034 259.733);
+  --color-gray-800: oklch(27.8% 0.033 256.848);
+  --color-zinc-50: oklch(98.5% 0 0);
+  --color-zinc-300: oklch(87.1% 0.006 286.286);
+  --color-zinc-400: oklch(70.5% 0.015 286.067);
+  --color-zinc-500: oklch(55.2% 0.016 285.938);
+  --color-zinc-600: oklch(44.2% 0.017 285.786);
+  --color-zinc-700: oklch(37% 0.013 285.805);
+  --color-zinc-800: oklch(27.4% 0.006 286.033);
+  --color-zinc-900: oklch(21% 0.006 285.885);
+  --color-zinc-950: oklch(14.1% 0.005 285.823);
+  --color-neutral-100: oklch(97% 0 0);
+  --color-neutral-300: oklch(87% 0 0);
+  --color-neutral-400: oklch(70.8% 0 0);
+  --color-neutral-500: oklch(55.6% 0 0);
+  --color-black: #000;
+  --color-white: #fff;
+  --spacing: 0.25rem;
+  --container-lg: 32rem;
+  --container-xl: 36rem;
+  --container-2xl: 42rem;
+  --container-3xl: 48rem;
+  --container-4xl: 56rem;
+  --container-5xl: 64rem;
+  --container-7xl: 80rem;
+  --text-xs: 0.75rem;
+  --text-xs--line-height: calc(1 / 0.75);
+  --text-sm: 0.875rem;
+  --text-sm--line-height: calc(1.25 / 0.875);
+  --text-base: 1rem;
+  --text-base--line-height: calc(1.5 / 1);
+  --text-lg: 1.125rem;
+  --text-lg--line-height: calc(1.75 / 1.125);
+  --text-xl: 1.25rem;
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: calc(2 / 1.5);
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: calc(2.25 / 1.875);
+  --text-4xl: 2.25rem;
+  --text-4xl--line-height: calc(2.5 / 2.25);
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1;
+  --text-7xl: 4.5rem;
+  --text-7xl--line-height: 1;
+  --text-9xl: 8rem;
+  --text-9xl--line-height: 1;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --drop-shadow-lg: 0 4px 4px rgb(0 0 0 / 0.15);
+  --drop-shadow-xl: 0 9px 7px rgb(0 0 0 / 0.1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --animate-spin: spin 1s linear infinite;
+  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --blur-xs: 4px;
+  --blur-lg: 16px;
+  --blur-2xl: 40px;
+  --blur-3xl: 64px;
+  --aspect-video: 16 / 9;
+  --default-transition-duration: 150ms;
+  --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --color-blacktext: #171717;
+  --color-mint-50: #ecfdf5;
+  --color-mint-100: #d0fbe5;
+  --color-mint-200: #a4f4cf;
+  --color-mint-300: #6ce9b7;
+  --color-mint-400: #31d69a;
+  --color-mint-500: #0dbc82;
+  --color-mint-600: #03986a;
+  --color-mint-700: #027a58;
+  --color-mint-800: #056047;
+  --color-mint-900: #054f3c;
+  --color-mint-950: #012d22;
+  --color-riptide-50: #f0fdfa;
+  --color-riptide-100: #cbfcf1;
+  --color-riptide-200: #96f7e4;
+  --color-riptide-300: #5cecd5;
+  --color-riptide-400: #2bd6c1;
+  --color-riptide-500: #12baa8;
+  --color-riptide-600: #0b9689;
+  --animate-rotate-border: border-rotate 3s linear infinite;
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+  --color-green-200: oklch(92.5% 0.084 155.995);
+  --color-green-400: oklch(79.2% 0.209 151.711);
+  --color-emerald-50: oklch(97.9% 0.021 166.113);
+  --color-emerald-200: oklch(90.5% 0.093 164.15);
+  --color-teal-200: oklch(91% 0.096 180.426);
+  --color-slate-400: oklch(70.4% 0.04 256.788);
+  --color-slate-500: oklch(55.4% 0.046 257.417);
+  --color-slate-600: oklch(44.6% 0.043 257.281);
+  --color-gray-100: oklch(96.7% 0.003 264.542);
+  --color-gray-200: oklch(92.8% 0.006 264.531);
+  --color-gray-300: oklch(87.2% 0.01 258.338);
+  --color-gray-400: oklch(70.7% 0.022 261.325);
+  --color-gray-600: oklch(44.6% 0.03 256.802);
+  --color-gray-700: oklch(37.3% 0.034 259.733);
+  --color-gray-800: oklch(27.8% 0.033 256.848);
+  --color-zinc-50: oklch(98.5% 0 0);
+  --color-zinc-300: oklch(87.1% 0.006 286.286);
+  --color-zinc-400: oklch(70.5% 0.015 286.067);
+  --color-zinc-500: oklch(55.2% 0.016 285.938);
+  --color-zinc-600: oklch(44.2% 0.017 285.786);
+  --color-zinc-700: oklch(37% 0.013 285.805);
+  --color-zinc-800: oklch(27.4% 0.006 286.033);
+  --color-zinc-900: oklch(21% 0.006 285.885);
+  --color-zinc-950: oklch(14.1% 0.005 285.823);
+  --color-neutral-100: oklch(97% 0 0);
+  --color-neutral-300: oklch(87% 0 0);
+  --color-neutral-400: oklch(70.8% 0 0);
+  --color-neutral-500: oklch(55.6% 0 0);
+  --color-black: #000;
+  --color-white: #fff;
+  --spacing: 0.25rem;
+  --container-lg: 32rem;
+  --container-xl: 36rem;
+  --container-2xl: 42rem;
+  --container-3xl: 48rem;
+  --container-4xl: 56rem;
+  --container-5xl: 64rem;
+  --container-7xl: 80rem;
+  --text-xs: 0.75rem;
+  --text-xs--line-height: calc(1 / 0.75);
+  --text-sm: 0.875rem;
+  --text-sm--line-height: calc(1.25 / 0.875);
+  --text-base: 1rem;
+  --text-base--line-height: calc(1.5 / 1);
+  --text-lg: 1.125rem;
+  --text-lg--line-height: calc(1.75 / 1.125);
+  --text-xl: 1.25rem;
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: calc(2 / 1.5);
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: calc(2.25 / 1.875);
+  --text-4xl: 2.25rem;
+  --text-4xl--line-height: calc(2.5 / 2.25);
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1;
+  --text-7xl: 4.5rem;
+  --text-7xl--line-height: 1;
+  --text-9xl: 8rem;
+  --text-9xl--line-height: 1;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --drop-shadow-lg: 0 4px 4px rgb(0 0 0 / 0.15);
+  --drop-shadow-xl: 0 9px 7px rgb(0 0 0 / 0.1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --animate-spin: spin 1s linear infinite;
+  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --blur-xs: 4px;
+  --blur-lg: 16px;
+  --blur-2xl: 40px;
+  --blur-3xl: 64px;
+  --aspect-video: 16 / 9;
+  --default-transition-duration: 150ms;
+  --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --color-blacktext: #171717;
+  --color-mint-50: #ecfdf5;
+  --color-mint-100: #d0fbe5;
+  --color-mint-200: #a4f4cf;
+  --color-mint-300: #6ce9b7;
+  --color-mint-400: #31d69a;
+  --color-mint-500: #0dbc82;
+  --color-mint-600: #03986a;
+  --color-mint-700: #027a58;
+  --color-mint-800: #056047;
+  --color-mint-900: #054f3c;
+  --color-mint-950: #012d22;
+  --color-riptide-50: #f0fdfa;
+  --color-riptide-100: #cbfcf1;
+  --color-riptide-200: #96f7e4;
+  --color-riptide-300: #5cecd5;
+  --color-riptide-400: #2bd6c1;
+  --color-riptide-500: #12baa8;
+  --color-riptide-600: #0b9689;
+  --animate-rotate-border: border-rotate 3s linear infinite;
+}
+
+/* Inherited from ancestor level 8 (regular) */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+/* Inherited from ancestor level 8 (regular) */
+html, :host {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+  font-feature-settings: var(--default-font-feature-settings, normal);
+  font-variation-settings: var(--default-font-variation-settings, normal);
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
+  text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+  font-feature-settings: var(--default-font-feature-settings, normal);
+  font-variation-settings: var(--default-font-variation-settings, normal);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Inherited from ancestor level 8 (regular) */
+.scroll-smooth {
+  scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+/* Inherited from ancestor level 8 (regular) */
+.bg-mint-50\/5 {
+  background-color: color-mix(in srgb, #ecfdf5 5%, transparent);
+  background-color: color-mix(in srgb, rgb(236, 253, 245) 5%, transparent);
+}
+
+/* Inherited from ancestor level 8 (regular) */
+ {
+  background-color: color-mix(in oklab, var(--color-mint-50) 5%, transparent);
+  background-color: color-mix(in oklab, var(--color-mint-50) 5%, transparent);
+}
+
+/* Inherited from ancestor level 8 (regular) */
+.font-montserrat {
+  font-family: var(--font-montserrat);
+  font-family: var(--font-montserrat);
+}
+
+/* Inherited from ancestor level 8 (regular) */
+.dark\:bg-\[\#0E0E11\] {
+}
+
+/* Inherited from ancestor level 8 (regular) */
+&:where(.dark, .dark *) {
+  background-color: #0E0E11;
+  background-color: rgb(14, 14, 17);
+}
+
+/* Inherited from ancestor level 8 (regular) */
+* {
+  scrollbar-color: #6ce9b7 #d0fbe5;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  scrollbar-color: rgb(108, 233, 183) rgb(208, 251, 229);
+  scrollbar-width: thin;
+  box-sizing: border-box;
+}

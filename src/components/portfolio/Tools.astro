@@ -1,29 +1,25 @@
 ---
-const allTools = [
-  // Graphic Design Tools
-  "photoshop",
-  "illustrator", 
-  "canva",
-  "figma",
-  
-  // Audio Tools
-  "studioone",
-  "flstudio",
-  "ableton",
-  "audacity",
-  
-  // Administrative Tools
-  "google-workspace",
-  "microsoft-office",
-  "trello",
-  "notion",
-  
-  // Web Technologies (keeping some for completeness)
-  "html",
-  "css",
-  "javascript",
-  "markdown",
-];
+const groupedTools = {
+  "Graphic Design": [
+    "photoshop",
+    "illustrator",
+    "canva",
+    "figma",
+  ],
+
+  "Audio Specialist": [
+    "studioone",
+    "flstudio",
+    "ableton",
+    "audacity",
+  ],
+
+  "Administrative Support": [
+    "google-workspace",
+    "microsoft-office",
+    "trello",
+  ],
+};
 
 import Capsule from "../ui/Capsule.astro";
 
@@ -45,5 +41,14 @@ const classes = `${baseClasses} ${variantClasses[variant as ToolVariant]}`;
 ---
 
 <div class={classes}>
-  {allTools.map((tool) => <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />)}
+  {Object.entries(groupedTools).map(([group, tools]) => (
+    <div class="w-full">
+      <h4 class="text-sm font-semibold text-gray-600 dark:text-gray-300 mb-2">{group}</h4>
+      <div class="flex flex-wrap gap-3 mb-4">
+        {tools.map((tool) => (
+          <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />
+        ))}
+      </div>
+    </div>
+  ))}
 </div>
