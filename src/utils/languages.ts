@@ -9,7 +9,10 @@ export const languages: Record<string, Language> = {
   photoshop: {
     name: "Adobe Photoshop",
     iconName: "photoshop",
-  
+  },
+  illustrator: {
+    name: "Adobe Illustrator", 
+    iconName: "illustrator",
   },
   canva: {
     name: "Canva",

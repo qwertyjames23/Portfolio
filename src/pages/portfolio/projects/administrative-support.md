@@ -9,20 +9,17 @@ image:
   alt: "Administrative Support Showcase"
 --- 
 
-Comprehensive virtual assistant and administrative services designed to streamline business operations and improve organizational efficiency.
+**Administrative Support** - Comprehensive virtual assistant and administrative services designed to streamline business operations and improve organizational efficiency.
 
-## Skills
+## My Skills
 
-- Email & Calendar Management — Professional email handling and scheduling coordination.
-- Data Entry & Database Management — Accurate data processing and database organization.
-- Document Preparation — Professional document creation, formatting, and editing.
-- Scheduling & Task Coordination — Project planning, scheduling, and team coordination.
-- Online Research — Thorough research and information gathering.
-- File & Record Management — Systematic organization and digital file management.
+- **Email & Calendar Management** - Professional email handling and scheduling coordination
+- **Data Entry & Database Management** - Accurate data processing and database organization
+- **Document Preparation** - Professional document creation, formatting, and editing
+- **Scheduling & Task Coordination** - Project management and team coordination
+- **Online Research** - Thorough research and information gathering services
+- **File & Record Management** - Systematic organization and digital file management
 
-## Tools
+## Professional Tools
 
-- Google Workspace
-- Microsoft Office 365
-- Trello
-- Notion
+Google Workspace, Microsoft Office 356, Trello, Notion
