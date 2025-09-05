@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-family="'Arial Black', sans-serif" font-size="72" fill="#ffffff">
-    RJADAMS
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="RJADAMS logo">
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#6ce9b7" />
+      <stop offset="100%" stop-color="#0dbc82" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="20" fill="url(#g)" />
+  <!-- Simple mark: centered circle to avoid <text> which breaks the icon loader -->
+  <circle cx="100" cy="100" r="40" fill="#ffffff" opacity="0.08" />
 </svg>

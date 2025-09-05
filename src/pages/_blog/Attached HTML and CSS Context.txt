@@ -1,0 +1,49 @@
+Attached HTML and CSS Context
+
+<h3 class="font-extrabold text-4xl max-xl:text-3xl max-md:text-xl  dark:text-white text-blacktext">Tech</h3>
+
+
+/* Matched Rule from user-agent */
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* Matched Rule from regular */
+*, ::after, ::before, ::backdrop, ::file-selector-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
