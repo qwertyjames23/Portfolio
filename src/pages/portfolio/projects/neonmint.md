@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 description: 'Visual Identity, Design and Layout, Type & Color Harmony, Digital Content, Print & Marketing Assets'
 languages: ["photoshop", "illustrator", "canva", "figma"]
 image:
-  url: "/images/projects/portfolio.webp"
+  url: "/images/graphicdesign.png"
   alt: "Graphic Design Showcase"
 --- 
 
