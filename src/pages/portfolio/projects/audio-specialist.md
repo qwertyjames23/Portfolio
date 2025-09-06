@@ -5,7 +5,7 @@ pubDate: 2025-01-20
 description: 'Audio Editing & Mixing, Vocal Separation & Music Isolation, Noise Reduction and Restoration, Podcast Editing, Voice Enhancement, Sound Design, Audio Mastering'
 languages: ["studioone", "flstudio", "ableton", "audacity"]
 image:
-  url: "/images/projects/portfolio.webp"
+  url: "/images/audiospecialist.jpg"
   alt: "Audio Specialist Showcase"
 --- 
 

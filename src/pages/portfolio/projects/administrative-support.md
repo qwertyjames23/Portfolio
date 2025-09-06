@@ -5,7 +5,7 @@ pubDate: 2025-01-25
 description: 'Email & Calendar Management, Data Entry & Database Management, Document Preparation, Scheduling & Task Coordination, Online Research, File & Record Management'
 languages: ["google-workspace", "microsoft-office", "trello"]
 image:
-  url: "/images/projects/portfolio.webp"
+  url: "/images/administrativesupport.jpg"
   alt: "Administrative Support Showcase"
 --- 
 

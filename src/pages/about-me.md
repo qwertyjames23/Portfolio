@@ -1,15 +1,25 @@
 ---
 layout: /src/layouts/MarkdownAbout.astro
-title: "Raffy James Adams | My Journey in Technology and Web Development 🚀| RJADAMS"
-description: "Web developer, technology enthusiast, and event organizer. From my beginnings in development to creating communities and impactful projects, here I share my journey, experiences, and learnings. 🚀☕"
+title: "Raffy James Adams | RJADAMS"
+description: "Graphic Designer • Audio Specialist • Administrative Support"
 author: "Raffy James Adams"
 image:
   url: "/images/profile.jpg"
   alt: "Photo of Raffy James Adams for the blog"
 ---
 
-Multi-skilled creative with expertise in graphic design, audio production, and administrative support. My curiosity for technology and creativity started early and has grown into a passion for building meaningful digital projects.
+I’m Raffy James Adams, a multi-skilled creative who brings ideas to life through graphic design, audio editing, and administrative support—balancing creativity with technical precision to deliver work that connects.
 
-I specialize in visual branding & design, crafting digital and print assets, and enhancing audio projects through editing, mixing, and mastering. Alongside the creative side, I also provide reliable administrative support to keep projects organized and efficient.
+## What I Do
 
-Passionate about innovation and continuous growth, I enjoy transforming ideas into polished outputs that inspire and connect.
+- **Graphic Design** – From brand identity to digital and print assets.
+- **Audio Specialist** – Mixing, mastering, podcast editing, and vocal isolation.
+- **Administrative Support** – Organizing tasks, managing emails, and streamlining workflows.
+
+## My Approach
+
+I value simplicity, attention to detail, and collaboration. Each project is crafted to match both purpose and personality, ensuring results that make an impact.
+
+## Beyond Work
+
+Outside projects, I enjoy music, exploring new tools, and spending time with my family. Creativity, technology, and community inspire everything I do.
