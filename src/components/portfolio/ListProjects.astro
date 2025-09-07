@@ -2,7 +2,6 @@
 import Project from "./Project.astro";
 import Heading from "../ui/Heading.astro";
 import { Icon } from "astro-icon/components";
-import Tools from "./Tools.astro";
 
 const allPosts = await Astro.glob("../../pages/portfolio/projects/*.md");
 
@@ -61,48 +60,5 @@ allPosts.sort(
       ))
     }
   </div>
-  
-  <!-- Tools section placed inside projects section, directly below showcase -->
-  <div class="mx-auto max-w-7xl py-6">
-    <div class="rounded-2xl bg-linear-to-r from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 p-[.2rem] w-full">
-      <article class="group relative z-0 flex w-full flex-col h-full overflow-hidden rounded-2xl bg-linear-to-tr from-riptide-100 to-mint-100 p-6">
-        <!-- optional: keep Heading/Icon here if you want to repeat for Tools section -->
-        <div class="flex items-center justify-center gap-4 mb-4">
-          <h3 class="font-extrabold text-4xl max-xl:text-3xl dark:text-white text-blacktext">Tools</h3>
-        </div>
-        <div class="pb-2">
-          <Tools variant="center" />
-        </div>
-      </article>
-    </div>
-  </div>
 
-  <div
-    id="moreProjects"
-    class="absolute bottom-0 left-0 w-full flex justify-center text-center bg-linear-to-t from-[#FBFEFD] dark:from-[#0e0e10] from-55% to-transparent to-100% pb-30 pt-52"
-  >
-    <button
-      class="absolute font-bold cursor-pointer text-mint-400 dark:text-mint-100 hover:text-mint-500 dark:hover:text-mint-300 transition-all"
-    >
-      View More Projects...
-    </button>
-  </div>
 </section>
-
-<script>
-  document.querySelector("#moreProjects")?.addEventListener("click", () => {
-    const container = document.querySelector("#containerProjects");
-    const moreProjectsBtn = document.querySelector("#moreProjects");
-
-    if (container && moreProjectsBtn) {
-      // Expand container to show all projects
-      container.classList.remove("h-[150vh]");
-      container.classList.remove("h-auto");
-      // Hide the "View More" button after animation completes
-      moreProjectsBtn.classList.add("hidden");
-      setTimeout(() => {
-        moreProjectsBtn.classList.add("hidden");
-      }, 500);
-    }
-  });
-</script>

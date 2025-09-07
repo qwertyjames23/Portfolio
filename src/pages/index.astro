@@ -4,6 +4,8 @@ import Experience from "../components/portfolio/Experience.astro";
 import HeroIndex from "../components/portfolio/HeroIndex.astro";
 import Contact from "../components/portfolio/Contact.astro";
 import ListProjects from "../components/portfolio/ListProjects.astro";
+import TestimonialSection from "../components/portfolio/TestimonialSection.astro";
+import ToolsSection from "../components/portfolio/ToolsSection.astro";
 import { getCollection } from "astro:content";
 
 const [staticData] = await getCollection("staticData");
@@ -18,5 +20,7 @@ const { pageTitle, pageDescription, OGImage } = staticData.data;
   <HeroIndex />
   <Experience />
   <ListProjects />
+  <TestimonialSection />
+  <ToolsSection />
   <Contact />
 </Layout>

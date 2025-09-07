@@ -1,0 +1,58 @@
+---
+import Testimonial from "../ui/Testimonial.astro";
+import Heading from "../ui/Heading.astro";
+import { Icon } from "astro-icon/components";
+
+// Sample testimonial data - you can move this to static data later
+const testimonials = [
+  {
+    name: "Sarah Johnson",
+    role: "Marketing Manager",
+    company: "TechCorp",
+    message: "Working with RJ was an absolute pleasure. Their attention to detail in graphic design and administrative support helped streamline our entire marketing campaign. Highly professional and creative!",
+    image: "/images/graphicdesign.png"
+  },
+  {
+    name: "Mike Chen",
+    role: "Podcast Producer",
+    company: "Audio Waves Studio",
+    message: "RJ's audio expertise is outstanding. They transformed our raw recordings into polished, professional content that our listeners love. The technical quality and creative input exceeded our expectations.",
+    image: "/images/audiospecialist.jpg"
+  },
+  {
+    name: "Emily Rodriguez",
+    role: "CEO",
+    company: "StartupHub",
+    message: "RJ's administrative support has been invaluable to our growing company. Their organizational skills and proactive approach helped us maintain efficiency while scaling up. Couldn't recommend them more!",
+    image: "/images/administrativesupport.jpg"
+  }
+];
+---
+
+<section class="py-20 px-8 max-sm:px-4 bg-gray-50 dark:bg-zinc-900/50" id="testimonials">
+  <div class="mx-auto max-w-7xl">
+    <!-- Section Header -->
+    <div class="flex gap-4 items-center justify-center text-center mb-12">
+      <Icon class="text-3xl dark:text-white text-blacktext" name="person" />
+      <Heading text="Client" textGradient="Testimonials" level={2} />
+    </div>
+
+    <p class="text-center mx-auto text-lg max-xl:text-base max-w-2xl dark:text-gray-200 text-blacktext mb-12 leading-6 font-medium">
+      Here's what my clients say about working with me across <b class="bg-linear-to-r from-riptide-500 to-mint-500 dark:from-riptide-300 dark:to-mint-200 text-transparent bg-clip-text">my three specialties</b>: 
+      Graphic Design, Audio Production, and Administrative Support.
+    </p>
+
+    <!-- Testimonials Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {testimonials.map((testimonial) => (
+        <Testimonial
+          name={testimonial.name}
+          role={testimonial.role}
+          company={testimonial.company}
+          message={testimonial.message}
+          image={testimonial.image}
+        />
+      ))}
+    </div>
+  </div>
+</section>

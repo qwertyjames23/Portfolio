@@ -1,0 +1,28 @@
+---
+import Tools from "./Tools.astro";
+import Heading from "../ui/Heading.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<section class="py-20 px-8 max-sm:px-4" id="tools">
+  <div class="mx-auto max-w-7xl">
+    <!-- Section Header -->
+    <div class="flex gap-4 items-center justify-center text-center mb-12">
+      <Icon class="text-3xl dark:text-white text-blacktext" name="code" />
+      <Heading text="My" textGradient="Tools" level={2} />
+    </div>
+
+    <p class="text-center mx-auto text-lg max-xl:text-base max-w-2xl dark:text-gray-200 text-blacktext mb-12 leading-6 font-medium">
+      Here are the <b class="bg-linear-to-r from-riptide-500 to-mint-500 dark:from-riptide-300 dark:to-mint-200 text-transparent bg-clip-text">professional tools and technologies</b> I use across my three specialties to deliver high-quality results.
+    </p>
+
+    <!-- Tools Container -->
+    <div class="rounded-2xl bg-linear-to-r from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 p-[.2rem] w-full">
+      <article class="group relative z-0 flex w-full flex-col h-full overflow-hidden rounded-2xl bg-linear-to-tr from-riptide-100 to-white p-6 transition-all hover:shadow-[0_10px_50px_rgba(13,188,130,0.2)] dark:bg-linear-to-r dark:from-mint-950 dark:to-zinc-950 dark:overflow-hidden max-md:w-full max-md:gap-3 max-lg:gap-2 max-sm:flex-col dark:before:bg-[radial-gradient(circle,rgba(13,188,130)_0,rgba(1,45,34)_100%)] before:bg-[radial-gradient(circle,rgba(95,255,202)_0,rgba(144,253,210)_100%)] before:absolute before:left-65 before:top-10 before:h-[40%] before:aspect-square before:rounded-full before:blur-3xl before:opacity-80 before:-z-10 before:transition hover:before:animate-pulse">
+        <div class="pb-2">
+          <Tools variant="center" />
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
