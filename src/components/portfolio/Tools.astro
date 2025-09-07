@@ -26,13 +26,12 @@ import Capsule from "../ui/Capsule.astro";
 type ToolVariant = "default" | "center";
 
 // Base classes that are common to all variants
-// Use a responsive grid and stretch items so each tools "card" matches height
-const baseClasses = "grid gap-4 max-lg:gap-3 max-md:gap-2 grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 items-stretch";
+const baseClasses = "grid gap-4 max-lg:gap-3";
 
 // Variant-specific classes
 const variantClasses: Record<ToolVariant, string> = {
-  default: "cursor-default",
-  center: "justify-center cursor-default",
+  default: "grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1",
+  center: "grid-cols-1 place-items-center",
 };
 
 const { variant = "default", linkEnabled = false, size = "md" } = Astro.props;
@@ -43,13 +42,15 @@ const classes = `${baseClasses} ${variantClasses[variant as ToolVariant]}`;
 
 <div class={classes}>
   {Object.entries(groupedTools).map(([group, tools]) => (
-    <div class="w-full h-full flex flex-col justify-between p-4">
+    <div class={variant === "center" ? "w-full max-w-md text-center" : "w-full"}>
       <h4 class="text-sm font-semibold text-gray-600 dark:text-gray-300 mb-2">{group}</h4>
-      <div class="flex flex-wrap gap-3 mb-4">
+      <div class={variant === "center" ? "flex flex-wrap gap-3 mb-4 justify-center" : "flex flex-wrap gap-3 mb-4"}>
         {tools.map((tool) => (
           <Capsule lang={tool} linkEnabled={linkEnabled} size={size} />
         ))}
       </div>
     </div>
   ))}
+
+</div>
 </div>

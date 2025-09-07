@@ -2,6 +2,7 @@
 import Project from "./Project.astro";
 import Heading from "../ui/Heading.astro";
 import { Icon } from "astro-icon/components";
+import Tools from "./Tools.astro";
 
 const allPosts = await Astro.glob("../../pages/portfolio/projects/*.md");
 
@@ -41,7 +42,7 @@ allPosts.sort(
     </p>
     <slot />
   </div>
-
+  
   <!-- Featured Project Showcase -->
   <div
     id="containerProjects"
@@ -59,6 +60,21 @@ allPosts.sort(
         />
       ))
     }
+  </div>
+  
+  <!-- Tools section placed inside projects section, directly below showcase -->
+  <div class="mx-auto max-w-7xl py-6">
+    <div class="rounded-2xl bg-linear-to-r from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 p-[.2rem] w-full">
+      <article class="group relative z-0 flex w-full flex-col h-full overflow-hidden rounded-2xl bg-linear-to-tr from-riptide-100 to-mint-100 p-6">
+        <!-- optional: keep Heading/Icon here if you want to repeat for Tools section -->
+        <div class="flex items-center justify-center gap-4 mb-4">
+          <h3 class="font-extrabold text-4xl max-xl:text-3xl dark:text-white text-blacktext">Tools</h3>
+        </div>
+        <div class="pb-2">
+          <Tools variant="center" />
+        </div>
+      </article>
+    </div>
   </div>
 
   <div
