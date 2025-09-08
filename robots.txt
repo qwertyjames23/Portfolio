@@ -2,6 +2,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://qwertyjames23.github.io/Portfolio/sitemap-index.xml
+Sitemap: https://qwertyjames23.github.io/sitemap-index.xml
 
 
