@@ -4,24 +4,29 @@ import Header from "../components/layout/Header.astro";
 import Footer from "../components/layout/Footer.astro";
 import  SpeedInsights  from "@vercel/speed-insights/astro";
 import { getAssetPath } from "../utils/assets";
+
 const {
-  pageTitle = "Portfolio by RJADAMS 🚀",
-  description = "Welcome to Portfolio by RJADAMS, where I develop software and share knowledge.",
+  pageTitle = "Raffy James Adams - Professional Portfolio | Graphic Designer | Audio Specialist | Administrative Support",
+  description = "Professional portfolio of Raffy James Adams (RJADAMS) - Expert Graphic Designer, Audio Specialist, and Administrative Support professional. View my work, skills, and get in touch for your next project.",
+  keywords = "Raffy James Adams, RJADAMS, Graphic Designer, Audio Specialist, Administrative Support, Portfolio, Freelancer, Philippines, Web Design, Logo Design, Podcast Editing, Audio Production, Virtual Assistant",
   ogimage = {
-    url: getAssetPath("/images/imagedefault.webp"),
-    alt: "Default image of RJADAMS",
+    url: getAssetPath("/images/rjadamsprofile.webp"),
+    alt: "Raffy James Adams - Professional Portfolio",
   },
 } = Astro.props;
 
-const siteUrl = new URL(Astro.url).origin;
+const siteUrl = "https://qwertyjames23.github.io/Portfolio";
+const currentUrl = `${siteUrl}${Astro.url.pathname}`;
+
 const SEO = {
-  sitename: "Portfolio by RJADAMS🚀",
+  sitename: "Raffy James Adams Portfolio",
   url: siteUrl,
   locale: "en_US",
-  author: "Raffy James Adams | RJADAMS",
-  twitter: "@rjadams",
+  author: "Raffy James Adams",
+  twitter: "@rjadams23",
+  linkedin: "https://www.linkedin.com/in/raffy-james-adams-779562325/",
+  github: "https://github.com/qwertyjames23",
 };
-
 
 const twitterimage = `${siteUrl}${ogimage.url}`;
 ---
@@ -34,43 +39,95 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <meta name="author" content={SEO.author} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href={currentUrl} />
+    
+    <!-- Geographic and Contact Information -->
+    <meta name="geo.region" content="PH" />
+    <meta name="geo.country" content="Philippines" />
+    <meta name="contact" content="raffyjamesadams5@gmail.com" />
+    
     <!-- Favicon for different platforms -->
-    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="icon" href="/android-chrome-192x192.png" sizes="192x192" />
-    <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" />
+    <link rel="icon" href={getAssetPath("/favicon-32x32.png")} sizes="32x32" />
+    <link rel="icon" href={getAssetPath("/favicon-16x16.png")} sizes="16x16" />
+    <link rel="apple-touch-icon" href={getAssetPath("/apple-touch-icon.png")} />
+    <link rel="icon" href={getAssetPath("/android-chrome-192x192.png")} sizes="192x192" />
+    <link rel="icon" href={getAssetPath("/android-chrome-512x512.png")} sizes="512x512" />
 
     <!-- Web manifest -->
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <meta name="description" content={description} />
-    <meta name="author" content={SEO.author} />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={`${Astro.site}${Astro.url.pathname}`}>
+    <link rel="manifest" href={getAssetPath("/site.webmanifest")} />
     <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogimage.url} />
+    <meta property="og:image" content={twitterimage} />
     <meta property="og:image:alt" content={ogimage.alt} />
-    <meta property="og:url" content={SEO.url} />
-    <meta property="og:type" content="website" />
+    <meta property="og:url" content={currentUrl} />
     <meta property="og:site_name" content={SEO.sitename} />
     <meta property="og:locale" content={SEO.locale} />
-    
+    <meta property="profile:first_name" content="Raffy James" />
+    <meta property="profile:last_name" content="Adams" />
+    <meta property="profile:username" content="RJADAMS" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content={SEO.twitter} />
+    <meta name="twitter:creator" content={SEO.twitter} />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={twitterimage} />
     <meta name="twitter:image:alt" content={ogimage.alt} />
-    <meta name="twitter:site" content={SEO.twitter} />
+    
+    <!-- LinkedIn -->
+    <meta property="linkedin:owner" content={SEO.linkedin} />
+    
+    <!-- Schema.org structured data for Person -->
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Raffy James Adams",
+        "alternateName": "RJADAMS",
+        "description": "Professional Graphic Designer, Audio Specialist, and Administrative Support expert",
+        "url": siteUrl,
+        "image": twitterimage,
+        "sameAs": [
+          "https://www.linkedin.com/in/raffy-james-adams-779562325/",
+          "https://github.com/qwertyjames23",
+          "https://www.instagram.com/rjadams23/"
+        ],
+        "jobTitle": "Graphic Designer, Audio Specialist, Administrative Support",
+        "worksFor": {
+          "@type": "Person",
+          "name": "Freelancer"
+        },
+        "knowsAbout": [
+          "Graphic Design",
+          "Audio Production",
+          "Administrative Support",
+          "Podcast Editing",
+          "Logo Design",
+          "Virtual Assistant"
+        ],
+        "email": "raffyjamesadams5@gmail.com",
+        "nationality": "Filipino"
+      })}
+    </script>
   
     <meta name="theme-color" content="#0E0E11"/>
 
     <!-- Sitemap -->
-    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="sitemap" href={getAssetPath("/sitemap-index.xml")} />
+    
+    <!-- Additional SEO -->
+    <meta name="language" content="en" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="general" />
     
   </head>
   <body class="overflow-x-hidden">

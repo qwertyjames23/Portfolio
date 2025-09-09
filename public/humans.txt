@@ -1,0 +1,13 @@
+# humanstxt.org
+
+/* TEAM */
+Developer & Designer: Raffy James Adams
+Contact: rjadams [at] professional email
+Location: Philippines
+
+/* SITE */
+Last update: 2024/12/30
+Language: English
+Standards: HTML5, CSS3, Accessibility
+Components: Astro, Tailwind CSS, TypeScript
+Software: VS Code, Adobe Creative Suite, FL Studio

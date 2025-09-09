@@ -9,13 +9,19 @@ import ToolsSection from "../components/portfolio/ToolsSection.astro";
 import { getCollection } from "astro:content";
 
 const [staticData] = await getCollection("staticData");
-const { pageTitle, pageDescription, OGImage } = staticData.data;
+const { OGImage } = staticData.data;
+
+// SEO optimized content
+const pageTitle = "Raffy James Adams - Professional Portfolio | Graphic Designer | Audio Specialist | Administrative Support";
+const pageDescription = "Welcome to the professional portfolio of Raffy James Adams (RJADAMS). Expert Graphic Designer, Audio Specialist, and Administrative Support professional from the Philippines. Explore my creative work, technical skills, and successful client projects. Available for freelance and contract work.";
+const keywords = "Raffy James Adams, RJADAMS, Graphic Designer Philippines, Audio Specialist, Administrative Support, Freelancer, Portfolio, Logo Design, Podcast Editing, Virtual Assistant, Creative Professional";
 ---
 
 <Layout
   pageTitle={pageTitle}
   description={pageDescription}
-  ogimage={{ alt: OGImage.alt, url: OGImage.url }}
+  keywords={keywords}
+  ogimage={{ alt: "Raffy James Adams Professional Portfolio", url: OGImage.url }}
 >
   <HeroIndex />
   <Experience />
