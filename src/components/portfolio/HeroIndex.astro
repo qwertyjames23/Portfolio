@@ -4,6 +4,7 @@ import Heading from "../ui/Heading.astro";
 import Tools from "../portfolio/Tools.astro";
 import { Icon } from "astro-icon/components";
 import Hobbies from "../portfolio/Hobbies.astro";
+import { getAssetPath } from "../../utils/assets";
 import { getCollection } from "astro:content";
 
 const [staticData] = await getCollection("staticData");
@@ -43,7 +44,7 @@ const {
           <div class="relative z-20 flex w-full rounded-full bg-mint-900">
             <div
               class="w-full aspect-square rounded-full bg-center bg-cover"
-              style={`background-image: url(${profileImage})`}
+              style={`background-image: url(${getAssetPath(profileImage)})`}
               aria-label={profileAlt}
             >
               <a
@@ -91,7 +92,7 @@ const {
             iconName={emailIconName}
           />
           <Button
-            link={profileLink}
+            link={getAssetPath(profileLink)}
             text="About Me"
             iconName="person"
             variant="dark"

@@ -4,15 +4,16 @@ import ThemeIcon from "../ui/ThemeIcon.astro";
 import Social from "../ui/Social.astro";
 import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
+import { getAssetPath } from "../../utils/assets";
 
 const [staticData] = await getCollection("staticData");
 const { github, githubIconName, linkedin, linkedinIconName } = staticData.data;
 
 const currentPath = Astro.url.pathname;
-const routes = ["/", "/portfolio", "/about-me"];
+const routes = ["/Portfolio/", "/Portfolio/portfolio", "/Portfolio/about-me"];
 
 // Check if the current route is in the list of routes
-const isActiveRoute = routes.includes(currentPath);
+const isActiveRoute = routes.includes(currentPath) || currentPath === "/Portfolio";
 
 const navItems = isActiveRoute
   ? ["home", "experience", "projects", "about"]
@@ -29,7 +30,7 @@ const navItems = isActiveRoute
   >
     <!-- left: logo -->
     <div class="flex items-center z-10">
-      <a href="/" aria-label="Go to home">
+      <a href={getAssetPath("/")} aria-label="Go to home">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" 
              class="h-6 cursor-pointer transition-all hover:text-mint-300" 
              fill="currentColor" aria-hidden="true">

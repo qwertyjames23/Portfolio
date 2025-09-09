@@ -5,6 +5,7 @@ import Capsule from "../components/ui/Capsule.astro";
 import Heading from "../components/ui/Heading.astro";
 import NavArticle from "../components/layout/NavArticle.astro";
 import Contact from "../components/portfolio/Contact.astro";
+import { getAssetPath } from "../utils/assets";
 const { frontmatter } = Astro.props;
 
 ---
@@ -30,8 +31,6 @@ const { frontmatter } = Astro.props;
             ))
           }
         </div>
-        
-        <DatePub date={frontmatter.pubDate} />
 
         <Heading text={frontmatter.title} />
 
@@ -42,7 +41,7 @@ const { frontmatter } = Astro.props;
         {
           frontmatter.image?.url && (
             <div class="w-full overflow-hidden rounded-xl aspect-[4/3]">
-              <img class="w-full h-full object-cover rounded-xl" src={frontmatter.image.url} alt={frontmatter.image.alt || "Article image"} />
+              <img class="w-full h-full object-cover rounded-xl" src={getAssetPath(frontmatter.image.url)} alt={frontmatter.image.alt || "Article image"} />
             </div>
           )
         }

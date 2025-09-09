@@ -5,7 +5,9 @@ import Heading from "../components/ui/Heading.astro";
 import NavArticle from "../components/layout/NavArticle.astro";
 import Contact from "../components/portfolio/Contact.astro";
 import Tools from "../components/portfolio/Tools.astro";
+import { getAssetPath } from "../utils/assets";
 const { frontmatter } = Astro.props;
+const profileImageUrl = getAssetPath("/images/profile.jpg");
 ---
 
 <script>
@@ -43,7 +45,8 @@ const { frontmatter } = Astro.props;
               </div>
               <div class="relative z-20 flex w-full rounded-full bg-mint-900">
                 <div
-                  class="w-full aspect-square rounded-full bg-[url(/images/profile.jpg)] bg-center bg-cover"
+                  class="w-full aspect-square rounded-full bg-center bg-cover"
+                  style={`background-image: url(${profileImageUrl})`}
                   aria-label="Photo of Raffy James Adams for the blog"
                 >
                   <a
