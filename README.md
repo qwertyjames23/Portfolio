@@ -107,7 +107,13 @@
    
    #### Clone Repository
    ```bash
-   git clone https://github.com/RJADAMS/Portfolio.git
+   # Clone the live repo
+   git clone https://github.com/qwertyjames23/Portfolio.git
+   ```
+   
+   #### Demo
+   ```
+   View the live demo: https://qwertyjames23.github.io/Portfolio/
    ```
    #### Install Dependencies
    ```bash
