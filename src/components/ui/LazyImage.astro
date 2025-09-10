@@ -1,0 +1,105 @@
+---
+import LoadingSpinner from './LoadingSpinner.astro';
+
+export interface Props {
+  src: string;
+  alt: string;
+  className?: string;
+  width?: number;
+  height?: number;
+  loading?: 'lazy' | 'eager';
+  placeholder?: boolean;
+}
+
+const { 
+  src, 
+  alt, 
+  className = '', 
+  width, 
+  height, 
+  loading = 'lazy',
+  placeholder = true 
+} = Astro.props;
+---
+
+<div class={`relative overflow-hidden ${className}`}>
+  {placeholder && (
+    <div 
+      class="absolute inset-0 bg-gray-200 dark:bg-gray-700 animate-pulse flex items-center justify-center lazy-placeholder"
+      style={width && height ? `aspect-ratio: ${width}/${height}` : ''}
+    >
+      <LoadingSpinner size="sm" />
+    </div>
+  )}
+  
+  <img
+    src={src}
+    alt={alt}
+    loading={loading}
+    width={width}
+    height={height}
+    class={`transition-opacity duration-300 lazy-image ${className}`}
+    onload="this.style.opacity='1'; this.parentElement.querySelector('.lazy-placeholder')?.remove()"
+    style="opacity: 0"
+    decoding="async"
+  />
+</div>
+
+<script>
+  // Progressive enhancement for better loading experience
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.lazy-image');
+    
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target as HTMLImageElement;
+          img.style.opacity = '1';
+          
+          // Remove placeholder when image loads
+          img.addEventListener('load', () => {
+            const placeholder = img.parentElement?.querySelector('.lazy-placeholder');
+            if (placeholder) {
+              placeholder.remove();
+            }
+          });
+          
+          observer.unobserve(img);
+        }
+      });
+    });
+
+    images.forEach(img => imageObserver.observe(img));
+  });
+</script>
+
+<style>
+  .lazy-image {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .lazy-image.loaded {
+    opacity: 1;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: calc(200px + 100%) 0;
+    }
+  }
+  
+  .lazy-placeholder {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200px 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  
+  .dark .lazy-placeholder {
+    background: linear-gradient(90deg, #374151 25%, #4b5563 50%, #374151 75%);
+    background-size: 200px 100%;
+  }
+</style>

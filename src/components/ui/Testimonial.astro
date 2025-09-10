@@ -1,4 +1,6 @@
 ---
+import LazyImage from './LazyImage.astro';
+
 interface Props {
   name: string;
   role: string;
@@ -28,10 +30,13 @@ const { name, role, company, message, image, rating = 5 } = Astro.props;
 
   <!-- Profile -->
   <div class="flex items-center">
-    <img 
-      src={image} 
+    <LazyImage
+      src={image}
       alt={`Profile picture of ${name}`}
-      class="w-12 h-12 rounded-full object-cover mr-4"
+      className="w-12 h-12 rounded-full object-cover mr-4"
+      width={48}
+      height={48}
+      loading="lazy"
     />
     <div>
       <h4 class="font-semibold text-gray-900 dark:text-white">{name}</h4>

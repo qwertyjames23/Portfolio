@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap&preload');
 
 @import 'tailwindcss';
 
@@ -271,5 +271,76 @@ a.inline-block.leading-5.pl-12{
 	z-index: -1;
 	border-radius: 50%;
 	filter: blur(10px);
+}
 
+/* Performance Optimizations */
+img {
+	content-visibility: auto;
+	contain-intrinsic-size: 300px 200px;
+}
+
+/* Image loading states */
+.lazy-loading {
+	background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+	background-size: 200px 100%;
+	animation: loading-shimmer 1.5s infinite;
+}
+
+.dark .lazy-loading {
+	background: linear-gradient(90deg, #374151 25%, #4b5563 50%, #374151 75%);
+	background-size: 200px 100%;
+}
+
+@keyframes loading-shimmer {
+	0% {
+		background-position: -200px 0;
+	}
+	100% {
+		background-position: calc(200px + 100%) 0;
+	}
+}
+
+/* Smooth transitions for better UX */
+* {
+	transition: opacity 0.2s ease-in-out;
+}
+
+/* Critical path optimization */
+.critical-content {
+	content-visibility: visible;
+}
+
+/* Reduce layout shift */
+.aspect-ratio-container {
+	aspect-ratio: var(--aspect-ratio);
+}
+
+/* Loading spinner animations */
+@keyframes spin-slow {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.animate-spin-slow {
+	animation: spin-slow 2s linear infinite;
+}
+
+/* Performance hints for complex elements */
+.will-change-transform {
+	will-change: transform;
+}
+
+.will-change-opacity {
+	will-change: opacity;
+}
+
+/* Page transition performance */
+.page-transition {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Optimize font loading */
+@font-face {
+	font-display: swap;
 }

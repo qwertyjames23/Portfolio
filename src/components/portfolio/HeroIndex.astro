@@ -4,6 +4,7 @@ import Heading from "../ui/Heading.astro";
 import Tools from "../portfolio/Tools.astro";
 import { Icon } from "astro-icon/components";
 import Hobbies from "../portfolio/Hobbies.astro";
+import LazyImage from "../ui/LazyImage.astro";
 import { getAssetPath } from "../../utils/assets";
 import { getCollection } from "astro:content";
 
@@ -42,16 +43,17 @@ const {
           >
           </div>
           <div class="relative z-20 flex w-full rounded-full bg-mint-900">
-            <div
-              class="w-full aspect-square rounded-full bg-center bg-cover"
-              style={`background-image: url(${getAssetPath(profileImage)})`}
-              aria-label={profileAlt}
-            >
-              <a
-                href={profileLink}
-                class="flex h-full w-full"
-                aria-label="View about me page"></a>
-            </div>
+            <LazyImage
+              src={getAssetPath(profileImage)}
+              alt={profileAlt}
+              className="w-full aspect-square rounded-full object-cover"
+              loading="eager"
+            />
+            <a
+              href={profileLink}
+              class="absolute inset-0 flex h-full w-full"
+              aria-label="View about me page">
+            </a>
           </div>
         </div>
       </div>
