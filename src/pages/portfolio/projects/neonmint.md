@@ -33,7 +33,8 @@ Photoshop, Illustrator, Canva, Figma
 
 ## 🌐 Demo
 
-👉 [View live demo](https://github.com/RJADAMS/Portfolio)
+👉 [View live demo](https://qwertyjames23.github.io/Portfolio/)
+👉 [View source code](https://github.com/qwertyjames23/Portfolio)
 
 ## 🎯 Objective
 
