@@ -1,5 +1,5 @@
-// Simple Service Worker for Portfolio Caching
-const CACHE_NAME = 'portfolio-v1';
+// Simple Service Worker for Portfolio Caching (version bump to v2 for nav rename cache bust)
+const CACHE_NAME = 'portfolio-v2';
 const urlsToCache = [
   '/',
   '/Portfolio/',
@@ -13,10 +13,18 @@ const urlsToCache = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
+      .then((cache) => cache.addAll(urlsToCache))
+      .then(() => self.skipWaiting())
+  );
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(
+        keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))
+      )
+    ).then(() => self.clients.claim())
   );
 });
 
